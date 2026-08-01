@@ -72,6 +72,26 @@ La visualización geográfica permite ubicar clientes dentro de la red y detecta
 
 ---
 
+# 🧩 Gestión de cajas y distribución FTTH
+
+![Cajas FTTH](docs/cajas.png)
+
+El sistema permite visualizar la relación entre la infraestructura de distribución y los clientes conectados.
+
+Cada caja contiene información asociada:
+
+- Clientes conectados
+- Cantidad de abonados
+- Estado de las ONUs
+- Niveles ópticos
+- Ubicación dentro de la red
+
+Esto permite identificar rápidamente qué clientes están afectados ante una posible falla en un punto de distribución.
+
+---
+
+
+
 # 📊 Parámetros monitoreados
 
 | Parámetro | Descripción |
@@ -82,6 +102,28 @@ La visualización geográfica permite ubicar clientes dentro de la red y detecta
 | Distance | Distancia aproximada hacia la OLT |
 | Status | Estado de conexión |
 
+
+---
+
+
+
+# 💡 Origen del proyecto
+
+FTTH NMS nació a partir de una necesidad real dentro de una operación de red FTTH.
+
+Durante las tareas diarias de soporte y mantenimiento era necesario contar con una herramienta que permitiera conocer rápidamente el estado de los clientes, detectar degradaciones ópticas y localizar posibles fallas dentro de la infraestructura.
+
+A partir de esta necesidad se desarrolló una plataforma propia capaz de centralizar información proveniente de la red GPON y transformarla en información útil para el diagnóstico.
+
+Actualmente permite:
+
+- Identificar clientes sin conexión
+- Detectar niveles ópticos fuera de rango
+- Ubicar rápidamente zonas con problemas
+- Consultar clientes asociados a cada caja de distribución
+- Reducir tiempos de diagnóstico ante reclamos
+
+El objetivo principal fue convertir datos técnicos de la red en una herramienta visual y práctica para la operación diaria.
 
 ---
 
