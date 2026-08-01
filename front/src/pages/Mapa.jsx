@@ -37,9 +37,9 @@ const Products = () => {
   return (
     <>
       <Header
-  toggleVerClientes={() => setVerClientesAbierto(!verClientesAbierto)}
-  toggleClientesAltos={() => setClientesAltosAbierto(!clientesAltosAbierto)}
-/>
+      toggleVerClientes={() => setVerClientesAbierto(!verClientesAbierto)}
+      toggleClientesAltos={() => setClientesAltosAbierto(!clientesAltosAbierto)}
+    />
       <section className="containerContent">
         <VerClientes 
           abierto={verClientesAbierto} 
